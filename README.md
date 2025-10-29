@@ -2,6 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/chaoswd/laravel-mongo-models.svg?style=flat-square)](https://packagist.org/packages/chaoswd/laravel-mongo-models) [![Total Downloads](https://img.shields.io/packagist/dt/chaoswd/laravel-mongo-models.svg?style=flat-square)](https://packagist.org/packages/chaoswd/laravel-mongo-models) [![GitHub Stars](https://img.shields.io/github/stars/ChaosWebDev/LaravelMongoModels?style=flat-square)](https://github.com/ChaosWebDev/LaravelMongoModels/stargazers) [![GitHub License](https://img.shields.io/github/license/ChaosWebDev/LaravelMongoModels?style=flat-square)](LICENSE)
 
+
 A lightweight Laravel package that adds an Artisan command for generating MongoDB Eloquent models...
 
 ---
