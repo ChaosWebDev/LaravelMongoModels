@@ -1,0 +1,42 @@
+# Auto normalize line endings to CRLF in the repo
+* text=auto eol=crlf
+
+# Treat PHP, JS, and related text files as text
+*.php text
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.yml text
+*.yaml text
+*.scss text
+*.css text
+*.md text
+*.html text
+*.blade.php text
+
+# Binary files (no diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.zip binary
+
+# Improve GitHub diff display for certain file types
+*.lock linguist-generated
+composer.lock -diff
+package-lock.json -diff
+
+# Ignore export of development files (for GitHub "Download ZIP")
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/.editorconfig export-ignore
+/.github export-ignore
+/tests export-ignore
