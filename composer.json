@@ -1,0 +1,19 @@
+{
+    "name": "chaoswd/laravel-mongo-models",
+    "description": ".",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chaoswd\\Mongo\\Models\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jpgerber1986",
+            "email": "jordangerber@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
